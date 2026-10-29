@@ -1,0 +1,128 @@
+﻿{
+    "product":  "AI Engineering OS",
+    "package":  "ai_engineering_os",
+    "schema_version":  "p4c-layout-1",
+    "template_count":  17,
+    "templates":  [
+                      {
+                          "name":  "AI Agent Definition",
+                          "slug":  "ai_agent_definition",
+                          "json_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_agent_definition/ai_agent_definition.json",
+                          "controller_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_agent_definition/ai_agent_definition.py",
+                          "status":  "repo_local_frappe_layout_template"
+                      },
+                      {
+                          "name":  "AI Agent Run",
+                          "slug":  "ai_agent_run",
+                          "json_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_agent_run/ai_agent_run.json",
+                          "controller_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_agent_run/ai_agent_run.py",
+                          "status":  "repo_local_frappe_layout_template"
+                      },
+                      {
+                          "name":  "AI Benchmark Result",
+                          "slug":  "ai_benchmark_result",
+                          "json_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_benchmark_result/ai_benchmark_result.json",
+                          "controller_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_benchmark_result/ai_benchmark_result.py",
+                          "status":  "repo_local_frappe_layout_template"
+                      },
+                      {
+                          "name":  "AI Benchmark Scenario",
+                          "slug":  "ai_benchmark_scenario",
+                          "json_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_benchmark_scenario/ai_benchmark_scenario.json",
+                          "controller_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_benchmark_scenario/ai_benchmark_scenario.py",
+                          "status":  "repo_local_frappe_layout_template"
+                      },
+                      {
+                          "name":  "AI Distribution Target",
+                          "slug":  "ai_distribution_target",
+                          "json_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_distribution_target/ai_distribution_target.json",
+                          "controller_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_distribution_target/ai_distribution_target.py",
+                          "status":  "repo_local_frappe_layout_template"
+                      },
+                      {
+                          "name":  "AI Integration Target",
+                          "slug":  "ai_integration_target",
+                          "json_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_integration_target/ai_integration_target.json",
+                          "controller_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_integration_target/ai_integration_target.py",
+                          "status":  "repo_local_frappe_layout_template"
+                      },
+                      {
+                          "name":  "AI Memory Entry",
+                          "slug":  "ai_memory_entry",
+                          "json_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_memory_entry/ai_memory_entry.json",
+                          "controller_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_memory_entry/ai_memory_entry.py",
+                          "status":  "repo_local_frappe_layout_template"
+                      },
+                      {
+                          "name":  "AI Model Profile",
+                          "slug":  "ai_model_profile",
+                          "json_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_model_profile/ai_model_profile.json",
+                          "controller_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_model_profile/ai_model_profile.py",
+                          "status":  "repo_local_frappe_layout_template"
+                      },
+                      {
+                          "name":  "AI Project Profile",
+                          "slug":  "ai_project_profile",
+                          "json_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_project_profile/ai_project_profile.json",
+                          "controller_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_project_profile/ai_project_profile.py",
+                          "status":  "repo_local_frappe_layout_template"
+                      },
+                      {
+                          "name":  "AI Provider",
+                          "slug":  "ai_provider",
+                          "json_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_provider/ai_provider.json",
+                          "controller_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_provider/ai_provider.py",
+                          "status":  "repo_local_frappe_layout_template"
+                      },
+                      {
+                          "name":  "AI Release Channel",
+                          "slug":  "ai_release_channel",
+                          "json_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_release_channel/ai_release_channel.json",
+                          "controller_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_release_channel/ai_release_channel.py",
+                          "status":  "repo_local_frappe_layout_template"
+                      },
+                      {
+                          "name":  "AI Skill Capability",
+                          "slug":  "ai_skill_capability",
+                          "json_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_skill_capability/ai_skill_capability.json",
+                          "controller_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_skill_capability/ai_skill_capability.py",
+                          "status":  "repo_local_frappe_layout_template"
+                      },
+                      {
+                          "name":  "AI Skill Package",
+                          "slug":  "ai_skill_package",
+                          "json_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_skill_package/ai_skill_package.json",
+                          "controller_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_skill_package/ai_skill_package.py",
+                          "status":  "repo_local_frappe_layout_template"
+                      },
+                      {
+                          "name":  "AI Skill Routing Rule",
+                          "slug":  "ai_skill_routing_rule",
+                          "json_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_skill_routing_rule/ai_skill_routing_rule.json",
+                          "controller_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_skill_routing_rule/ai_skill_routing_rule.py",
+                          "status":  "repo_local_frappe_layout_template"
+                      },
+                      {
+                          "name":  "AI Skill Source",
+                          "slug":  "ai_skill_source",
+                          "json_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_skill_source/ai_skill_source.json",
+                          "controller_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_skill_source/ai_skill_source.py",
+                          "status":  "repo_local_frappe_layout_template"
+                      },
+                      {
+                          "name":  "AI Skill Version",
+                          "slug":  "ai_skill_version",
+                          "json_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_skill_version/ai_skill_version.json",
+                          "controller_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_skill_version/ai_skill_version.py",
+                          "status":  "repo_local_frappe_layout_template"
+                      },
+                      {
+                          "name":  "AI Tool Profile",
+                          "slug":  "ai_tool_profile",
+                          "json_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_tool_profile/ai_tool_profile.json",
+                          "controller_path":  "E:/Codex Server/Projects/AI_Engineering_OS_Project/frappe_app/ai_engineering_os/ai_engineering_os/ai_engineering_os/doctype/ai_tool_profile/ai_tool_profile.py",
+                          "status":  "repo_local_frappe_layout_template"
+                      }
+                  ],
+    "notes":  "Repo-local Frappe app layout templates only. Not installed, migrated, or active in a Frappe site."
+}

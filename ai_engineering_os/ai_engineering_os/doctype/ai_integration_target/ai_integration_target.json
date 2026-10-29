@@ -1,0 +1,70 @@
+{
+  "actions": [],
+  "creation": "",
+  "custom": 0,
+  "description": "Repo-local template generated from YAML spec. Describes external platforms such as BuildFast or MCP targets.",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "target_name",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Target Name",
+      "reqd": 1
+    },
+    {
+      "fieldname": "target_type",
+      "fieldtype": "Select",
+      "label": "Target Type",
+      "options": "buildfast\ngithub\nnotion\nfrappe\nother"
+    },
+    {
+      "fieldname": "endpoint",
+      "fieldtype": "Data",
+      "label": "Endpoint"
+    },
+    {
+      "fieldname": "auth_method",
+      "fieldtype": "Select",
+      "label": "Auth Method",
+      "options": "none\nexternal_secret_reference\noauth\napi_gateway"
+    },
+    {
+      "fieldname": "enabled",
+      "fieldtype": "Check",
+      "label": "Enabled"
+    },
+    {
+      "fieldname": "last_sync",
+      "fieldtype": "Datetime",
+      "label": "Last Sync"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Small Text",
+      "label": "Notes"
+    }
+  ],
+  "istable": 0,
+  "links": [],
+  "module": "AI Engineering OS",
+  "name": "AI Integration Target",
+  "naming_rule": "Expression",
+  "permissions": [
+    {
+      "amend": 0,
+      "cancel": 0,
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "System Manager",
+      "submit": 0,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

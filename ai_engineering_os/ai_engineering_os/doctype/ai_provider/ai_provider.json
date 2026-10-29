@@ -1,0 +1,84 @@
+{
+  "actions": [],
+  "creation": "",
+  "custom": 0,
+  "description": "Repo-local template generated from YAML spec. Defines an AI provider such as Codex, Claude, or a future adapter.",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "provider_name",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "in_standard_filter": 1,
+      "label": "Provider Name",
+      "reqd": 1
+    },
+    {
+      "fieldname": "provider_type",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "label": "Provider Type",
+      "options": "codex\nclaude\nopenai\nlocal\nother"
+    },
+    {
+      "fieldname": "status",
+      "fieldtype": "Select",
+      "in_standard_filter": 1,
+      "label": "Status",
+      "options": "Active\nStandby\nDisabled"
+    },
+    {
+      "fieldname": "adapter_path",
+      "fieldtype": "Data",
+      "label": "Adapter Path"
+    },
+    {
+      "fieldname": "supports_code_execution",
+      "fieldtype": "Check",
+      "label": "Supports Code Execution"
+    },
+    {
+      "fieldname": "supports_long_context",
+      "fieldtype": "Check",
+      "label": "Supports Long Context"
+    },
+    {
+      "fieldname": "supports_review",
+      "fieldtype": "Check",
+      "label": "Supports Review"
+    },
+    {
+      "fieldname": "default_model_profile",
+      "fieldtype": "Link",
+      "label": "Default Model Profile",
+      "options": "AI Model Profile"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Small Text",
+      "label": "Notes"
+    }
+  ],
+  "istable": 0,
+  "links": [],
+  "module": "AI Engineering OS",
+  "name": "AI Provider",
+  "naming_rule": "Expression",
+  "permissions": [
+    {
+      "amend": 0,
+      "cancel": 0,
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "System Manager",
+      "submit": 0,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

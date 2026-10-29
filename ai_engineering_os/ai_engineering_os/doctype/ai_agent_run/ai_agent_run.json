@@ -1,0 +1,88 @@
+{
+  "actions": [],
+  "creation": "",
+  "custom": 0,
+  "description": "Repo-local template generated from YAML spec. Records execution runs and outcomes.",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "project_profile",
+      "fieldtype": "Link",
+      "label": "Project Profile",
+      "options": "AI Project Profile"
+    },
+    {
+      "fieldname": "request_text",
+      "fieldtype": "Long Text",
+      "label": "Request Text",
+      "reqd": 1
+    },
+    {
+      "fieldname": "classified_domain",
+      "fieldtype": "Data",
+      "label": "Classified Domain"
+    },
+    {
+      "fieldname": "task_type",
+      "fieldtype": "Data",
+      "in_standard_filter": 1,
+      "label": "Task Type"
+    },
+    {
+      "fieldname": "risk_level",
+      "fieldtype": "Select",
+      "label": "Risk Level",
+      "options": "low\nmedium\nhigh"
+    },
+    {
+      "fieldname": "provider_decision",
+      "fieldtype": "Data",
+      "label": "Provider Decision"
+    },
+    {
+      "fieldname": "skills_selected",
+      "fieldtype": "Code",
+      "label": "Skills Selected",
+      "options": "JSON"
+    },
+    {
+      "fieldname": "tools_selected",
+      "fieldtype": "Code",
+      "label": "Tools Selected",
+      "options": "JSON"
+    },
+    {
+      "fieldname": "status",
+      "fieldtype": "Select",
+      "label": "Status",
+      "options": "planned\nrunning\ncomplete\nfailed\nblocked"
+    },
+    {
+      "fieldname": "result_summary",
+      "fieldtype": "Small Text",
+      "label": "Result Summary"
+    }
+  ],
+  "istable": 0,
+  "links": [],
+  "module": "AI Engineering OS",
+  "name": "AI Agent Run",
+  "naming_rule": "Expression",
+  "permissions": [
+    {
+      "amend": 0,
+      "cancel": 0,
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "System Manager",
+      "submit": 0,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

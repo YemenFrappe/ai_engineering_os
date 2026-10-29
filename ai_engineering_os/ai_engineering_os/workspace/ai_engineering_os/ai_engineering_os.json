@@ -1,0 +1,241 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"aios-command-center\",\"type\":\"card\",\"data\":{\"card_name\":\"Command Center\",\"col\":4}},{\"id\":\"aios-skill-intelligence\",\"type\":\"card\",\"data\":{\"card_name\":\"Skill Intelligence\",\"col\":4}},{\"id\":\"aios-providers-tools\",\"type\":\"card\",\"data\":{\"card_name\":\"Providers & Tools\",\"col\":4}},{\"id\":\"aios-benchmarks-quality\",\"type\":\"card\",\"data\":{\"card_name\":\"Benchmarks & Quality\",\"col\":6}},{\"id\":\"aios-integrations\",\"type\":\"card\",\"data\":{\"card_name\":\"Integrations\",\"col\":6}}]",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "tool",
+ "idx": 0,
+ "indicator_color": "blue",
+ "is_hidden": 0,
+ "label": "AI Engineering OS",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Command Center",
+   "link_count": 4,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Engineering OS Command Center",
+   "link_count": 0,
+   "link_to": "aios-command-center",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Project Profile",
+   "link_count": 0,
+   "link_to": "AI Project Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Memory Entry",
+   "link_count": 0,
+   "link_to": "AI Memory Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Agent Run",
+   "link_count": 0,
+   "link_to": "AI Agent Run",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Skill Intelligence",
+   "link_count": 5,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Skill Source",
+   "link_count": 0,
+   "link_to": "AI Skill Source",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Skill Package",
+   "link_count": 0,
+   "link_to": "AI Skill Package",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Skill Version",
+   "link_count": 0,
+   "link_to": "AI Skill Version",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Skill Capability",
+   "link_count": 0,
+   "link_to": "AI Skill Capability",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Skill Routing Rule",
+   "link_count": 0,
+   "link_to": "AI Skill Routing Rule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Providers & Tools",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Provider",
+   "link_count": 0,
+   "link_to": "AI Provider",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Model Profile",
+   "link_count": 0,
+   "link_to": "AI Model Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Tool Profile",
+   "link_count": 0,
+   "link_to": "AI Tool Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Benchmarks & Quality",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Benchmark Scenario",
+   "link_count": 0,
+   "link_to": "AI Benchmark Scenario",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Benchmark Result",
+   "link_count": 0,
+   "link_to": "AI Benchmark Result",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Integrations",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Integration Target",
+   "link_count": 0,
+   "link_to": "AI Integration Target",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Distribution Target",
+   "link_count": 0,
+   "link_to": "AI Distribution Target",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "AI Release Channel",
+   "link_count": 0,
+   "link_to": "AI Release Channel",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "module": "AI Engineering OS",
+ "name": "AI Engineering OS",
+ "number_cards": [],
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 20.0,
+ "shortcuts": [],
+ "title": "AI Engineering OS"
+}

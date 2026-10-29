@@ -1,0 +1,87 @@
+{
+  "actions": [],
+  "creation": "",
+  "custom": 0,
+  "description": "Repo-local template generated from YAML spec. Defines deterministic rules for selecting skills.",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "rule_name",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Rule Name",
+      "reqd": 1
+    },
+    {
+      "fieldname": "priority",
+      "fieldtype": "Int",
+      "in_list_view": 1,
+      "label": "Priority"
+    },
+    {
+      "fieldname": "project_type",
+      "fieldtype": "Data",
+      "label": "Project Type"
+    },
+    {
+      "fieldname": "domain",
+      "fieldtype": "Data",
+      "label": "Domain"
+    },
+    {
+      "fieldname": "task_type",
+      "fieldtype": "Data",
+      "label": "Task Type"
+    },
+    {
+      "fieldname": "primary_skill",
+      "fieldtype": "Link",
+      "label": "Primary Skill",
+      "options": "AI Skill Package"
+    },
+    {
+      "fieldname": "supporting_skills",
+      "fieldtype": "Small Text",
+      "label": "Supporting Skills"
+    },
+    {
+      "fieldname": "provider_preference",
+      "fieldtype": "Select",
+      "label": "Provider Preference",
+      "options": "codex\nclaude\nboth"
+    },
+    {
+      "fieldname": "min_benchmark_score",
+      "fieldtype": "Float",
+      "label": "Min Benchmark Score"
+    },
+    {
+      "fieldname": "enabled",
+      "fieldtype": "Check",
+      "in_standard_filter": 1,
+      "label": "Enabled"
+    }
+  ],
+  "istable": 0,
+  "links": [],
+  "module": "AI Engineering OS",
+  "name": "AI Skill Routing Rule",
+  "naming_rule": "Expression",
+  "permissions": [
+    {
+      "amend": 0,
+      "cancel": 0,
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "System Manager",
+      "submit": 0,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

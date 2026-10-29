@@ -1,0 +1,82 @@
+{
+  "actions": [],
+  "creation": "",
+  "custom": 0,
+  "description": "Repo-local template generated from YAML spec. Version and hash record for a skill package.",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "skill_package",
+      "fieldtype": "Link",
+      "label": "Skill Package",
+      "options": "AI Skill Package",
+      "reqd": 1
+    },
+    {
+      "fieldname": "version",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Version",
+      "reqd": 1
+    },
+    {
+      "fieldname": "source",
+      "fieldtype": "Link",
+      "label": "Source",
+      "options": "AI Skill Source"
+    },
+    {
+      "fieldname": "source_commit",
+      "fieldtype": "Data",
+      "label": "Source Commit"
+    },
+    {
+      "fieldname": "source_path",
+      "fieldtype": "Data",
+      "label": "Source Path"
+    },
+    {
+      "fieldname": "content_hash",
+      "fieldtype": "Data",
+      "label": "Content Hash"
+    },
+    {
+      "fieldname": "status",
+      "fieldtype": "Select",
+      "label": "Status",
+      "options": "active\narchived\nblocked"
+    },
+    {
+      "fieldname": "benchmark_score",
+      "fieldtype": "Float",
+      "label": "Benchmark Score"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Small Text",
+      "label": "Notes"
+    }
+  ],
+  "istable": 0,
+  "links": [],
+  "module": "AI Engineering OS",
+  "name": "AI Skill Version",
+  "naming_rule": "Expression",
+  "permissions": [
+    {
+      "amend": 0,
+      "cancel": 0,
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "System Manager",
+      "submit": 0,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

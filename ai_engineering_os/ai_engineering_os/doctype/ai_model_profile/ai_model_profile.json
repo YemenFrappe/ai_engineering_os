@@ -1,0 +1,81 @@
+{
+  "actions": [],
+  "creation": "",
+  "custom": 0,
+  "description": "Repo-local template generated from YAML spec. Stores model routing metadata per provider.",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "provider",
+      "fieldtype": "Link",
+      "in_standard_filter": 1,
+      "label": "Provider",
+      "options": "AI Provider",
+      "reqd": 1
+    },
+    {
+      "fieldname": "model_name",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Model Name",
+      "reqd": 1
+    },
+    {
+      "fieldname": "model_role",
+      "fieldtype": "Select",
+      "label": "Model Role",
+      "options": "planner\ncoder\nreviewer\nsummarizer\nbenchmark"
+    },
+    {
+      "fieldname": "context_tier",
+      "fieldtype": "Select",
+      "label": "Context Tier",
+      "options": "short\nmedium\nlong"
+    },
+    {
+      "fieldname": "cost_tier",
+      "fieldtype": "Select",
+      "label": "Cost Tier",
+      "options": "low\nmedium\nhigh"
+    },
+    {
+      "fieldname": "latency_tier",
+      "fieldtype": "Select",
+      "label": "Latency Tier",
+      "options": "low\nmedium\nhigh"
+    },
+    {
+      "fieldname": "enabled",
+      "fieldtype": "Check",
+      "in_list_view": 1,
+      "label": "Enabled"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Small Text",
+      "label": "Notes"
+    }
+  ],
+  "istable": 0,
+  "links": [],
+  "module": "AI Engineering OS",
+  "name": "AI Model Profile",
+  "naming_rule": "Expression",
+  "permissions": [
+    {
+      "amend": 0,
+      "cancel": 0,
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "System Manager",
+      "submit": 0,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

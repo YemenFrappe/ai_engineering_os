@@ -1,0 +1,87 @@
+{
+  "actions": [],
+  "creation": "",
+  "custom": 0,
+  "description": "Repo-local template generated from YAML spec. Defines routing and quality benchmark cases.",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "scenario_id",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Scenario Id",
+      "reqd": 1
+    },
+    {
+      "fieldname": "scenario_name",
+      "fieldtype": "Data",
+      "label": "Scenario Name",
+      "reqd": 1
+    },
+    {
+      "fieldname": "domain",
+      "fieldtype": "Data",
+      "label": "Domain"
+    },
+    {
+      "fieldname": "task_type",
+      "fieldtype": "Data",
+      "label": "Task Type"
+    },
+    {
+      "fieldname": "input_request",
+      "fieldtype": "Long Text",
+      "label": "Input Request"
+    },
+    {
+      "fieldname": "expected_provider",
+      "fieldtype": "Select",
+      "label": "Expected Provider",
+      "options": "codex\nclaude\nboth"
+    },
+    {
+      "fieldname": "expected_primary_skill",
+      "fieldtype": "Link",
+      "label": "Expected Primary Skill",
+      "options": "AI Skill Package"
+    },
+    {
+      "fieldname": "expected_risk",
+      "fieldtype": "Select",
+      "label": "Expected Risk",
+      "options": "low\nmedium\nhigh"
+    },
+    {
+      "fieldname": "validation_criteria",
+      "fieldtype": "Long Text",
+      "label": "Validation Criteria"
+    },
+    {
+      "fieldname": "enabled",
+      "fieldtype": "Check",
+      "label": "Enabled"
+    }
+  ],
+  "istable": 0,
+  "links": [],
+  "module": "AI Engineering OS",
+  "name": "AI Benchmark Scenario",
+  "naming_rule": "Expression",
+  "permissions": [
+    {
+      "amend": 0,
+      "cancel": 0,
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "System Manager",
+      "submit": 0,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

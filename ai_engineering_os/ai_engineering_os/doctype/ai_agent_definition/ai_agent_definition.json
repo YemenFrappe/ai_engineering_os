@@ -1,0 +1,75 @@
+{
+  "actions": [],
+  "creation": "",
+  "custom": 0,
+  "description": "Repo-local template generated from YAML spec. Defines reusable agent roles and constraints.",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "agent_name",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Agent Name",
+      "reqd": 1
+    },
+    {
+      "fieldname": "role",
+      "fieldtype": "Small Text",
+      "label": "Role"
+    },
+    {
+      "fieldname": "provider_targets",
+      "fieldtype": "Small Text",
+      "label": "Provider Targets"
+    },
+    {
+      "fieldname": "default_skills",
+      "fieldtype": "Small Text",
+      "label": "Default Skills"
+    },
+    {
+      "fieldname": "allowed_tools",
+      "fieldtype": "Code",
+      "label": "Allowed Tools",
+      "options": "JSON"
+    },
+    {
+      "fieldname": "risk_limit",
+      "fieldtype": "Select",
+      "label": "Risk Limit",
+      "options": "low\nmedium\nhigh"
+    },
+    {
+      "fieldname": "activation_triggers",
+      "fieldtype": "Small Text",
+      "label": "Activation Triggers"
+    },
+    {
+      "fieldname": "instructions",
+      "fieldtype": "Long Text",
+      "label": "Instructions"
+    }
+  ],
+  "istable": 0,
+  "links": [],
+  "module": "AI Engineering OS",
+  "name": "AI Agent Definition",
+  "naming_rule": "Expression",
+  "permissions": [
+    {
+      "amend": 0,
+      "cancel": 0,
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "System Manager",
+      "submit": 0,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

@@ -1,0 +1,82 @@
+{
+  "actions": [],
+  "creation": "",
+  "custom": 0,
+  "description": "Repo-local template generated from YAML spec. Tracks origins of skills and audit inputs.",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "source_name",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Source Name",
+      "reqd": 1
+    },
+    {
+      "fieldname": "source_type",
+      "fieldtype": "Select",
+      "label": "Source Type",
+      "options": "builtin\nlocal\nplugin\nreference\nremote"
+    },
+    {
+      "fieldname": "source_url",
+      "fieldtype": "Data",
+      "label": "Source Url"
+    },
+    {
+      "fieldname": "local_path",
+      "fieldtype": "Data",
+      "label": "Local Path"
+    },
+    {
+      "fieldname": "license_status",
+      "fieldtype": "Select",
+      "label": "License Status",
+      "options": "unknown\nallowed\nrestricted\nblocked"
+    },
+    {
+      "fieldname": "last_ingested_commit",
+      "fieldtype": "Data",
+      "label": "Last Ingested Commit"
+    },
+    {
+      "fieldname": "status",
+      "fieldtype": "Select",
+      "label": "Status",
+      "options": "active\nstandby\nreference\ndeprecated\nblocked"
+    },
+    {
+      "fieldname": "trust_level",
+      "fieldtype": "Select",
+      "label": "Trust Level",
+      "options": "low\nmedium\nhigh"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Small Text",
+      "label": "Notes"
+    }
+  ],
+  "istable": 0,
+  "links": [],
+  "module": "AI Engineering OS",
+  "name": "AI Skill Source",
+  "naming_rule": "Expression",
+  "permissions": [
+    {
+      "amend": 0,
+      "cancel": 0,
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "System Manager",
+      "submit": 0,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

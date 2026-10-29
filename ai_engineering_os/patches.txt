@@ -1,0 +1,1 @@
+﻿# P4C local scaffold only. No patches are registered.

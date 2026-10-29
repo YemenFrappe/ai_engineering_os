@@ -1,0 +1,74 @@
+{
+  "actions": [],
+  "creation": "",
+  "custom": 0,
+  "description": "Repo-local template generated from YAML spec. Describes allowed tools and safety gates.",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "profile_name",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Profile Name",
+      "reqd": 1
+    },
+    {
+      "fieldname": "environment",
+      "fieldtype": "Select",
+      "in_standard_filter": 1,
+      "label": "Environment",
+      "options": "development\ntest\ndemo\nstaging\nproduction\nunknown"
+    },
+    {
+      "fieldname": "allowed_tools",
+      "fieldtype": "Code",
+      "label": "Allowed Tools",
+      "options": "JSON"
+    },
+    {
+      "fieldname": "blocked_tools",
+      "fieldtype": "Code",
+      "label": "Blocked Tools",
+      "options": "JSON"
+    },
+    {
+      "fieldname": "approval_required_tools",
+      "fieldtype": "Code",
+      "label": "Approval Required Tools",
+      "options": "JSON"
+    },
+    {
+      "fieldname": "risk_limit",
+      "fieldtype": "Select",
+      "label": "Risk Limit",
+      "options": "low\nmedium\nhigh"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Small Text",
+      "label": "Notes"
+    }
+  ],
+  "istable": 0,
+  "links": [],
+  "module": "AI Engineering OS",
+  "name": "AI Tool Profile",
+  "naming_rule": "Expression",
+  "permissions": [
+    {
+      "amend": 0,
+      "cancel": 0,
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "System Manager",
+      "submit": 0,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

@@ -1,0 +1,89 @@
+{
+  "actions": [],
+  "creation": "",
+  "custom": 0,
+  "description": "Repo-local template generated from YAML spec. Stores benchmark run results and regressions.",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "scenario",
+      "fieldtype": "Link",
+      "label": "Scenario",
+      "options": "AI Benchmark Scenario",
+      "reqd": 1
+    },
+    {
+      "fieldname": "run_id",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Run Id",
+      "reqd": 1
+    },
+    {
+      "fieldname": "run_date",
+      "fieldtype": "Datetime",
+      "label": "Run Date"
+    },
+    {
+      "fieldname": "actual_provider",
+      "fieldtype": "Data",
+      "label": "Actual Provider"
+    },
+    {
+      "fieldname": "actual_skills",
+      "fieldtype": "Code",
+      "label": "Actual Skills",
+      "options": "JSON"
+    },
+    {
+      "fieldname": "actual_tools",
+      "fieldtype": "Code",
+      "label": "Actual Tools",
+      "options": "JSON"
+    },
+    {
+      "fieldname": "actual_risk",
+      "fieldtype": "Select",
+      "label": "Actual Risk",
+      "options": "low\nmedium\nhigh"
+    },
+    {
+      "fieldname": "overall_score",
+      "fieldtype": "Float",
+      "label": "Overall Score"
+    },
+    {
+      "fieldname": "regression_status",
+      "fieldtype": "Select",
+      "label": "Regression Status",
+      "options": "pass\nwarning\nfail"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Small Text",
+      "label": "Notes"
+    }
+  ],
+  "istable": 0,
+  "links": [],
+  "module": "AI Engineering OS",
+  "name": "AI Benchmark Result",
+  "naming_rule": "Expression",
+  "permissions": [
+    {
+      "amend": 0,
+      "cancel": 0,
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "System Manager",
+      "submit": 0,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

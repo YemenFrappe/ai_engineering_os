@@ -1,0 +1,70 @@
+{
+  "actions": [],
+  "creation": "",
+  "custom": 0,
+  "description": "Repo-local template generated from YAML spec. Captures domain and task capabilities for routing.",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "skill_package",
+      "fieldtype": "Link",
+      "label": "Skill Package",
+      "options": "AI Skill Package",
+      "reqd": 1
+    },
+    {
+      "fieldname": "capability_name",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Capability Name",
+      "reqd": 1
+    },
+    {
+      "fieldname": "domain",
+      "fieldtype": "Data",
+      "label": "Domain"
+    },
+    {
+      "fieldname": "task_types",
+      "fieldtype": "Small Text",
+      "label": "Task Types"
+    },
+    {
+      "fieldname": "triggers",
+      "fieldtype": "Small Text",
+      "label": "Triggers"
+    },
+    {
+      "fieldname": "risk_flags",
+      "fieldtype": "Small Text",
+      "label": "Risk Flags"
+    },
+    {
+      "fieldname": "validation_steps",
+      "fieldtype": "Long Text",
+      "label": "Validation Steps"
+    }
+  ],
+  "istable": 0,
+  "links": [],
+  "module": "AI Engineering OS",
+  "name": "AI Skill Capability",
+  "naming_rule": "Expression",
+  "permissions": [
+    {
+      "amend": 0,
+      "cancel": 0,
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "System Manager",
+      "submit": 0,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

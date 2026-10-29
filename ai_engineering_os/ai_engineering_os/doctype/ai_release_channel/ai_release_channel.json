@@ -1,0 +1,65 @@
+{
+  "actions": [],
+  "creation": "",
+  "custom": 0,
+  "description": "Repo-local template generated from YAML spec. Defines promotion channels for skills and app releases.",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "channel_name",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Channel Name",
+      "reqd": 1
+    },
+    {
+      "fieldname": "status",
+      "fieldtype": "Select",
+      "label": "Status",
+      "options": "draft\nreview\napproved\nreleased\nblocked"
+    },
+    {
+      "fieldname": "version",
+      "fieldtype": "Data",
+      "label": "Version"
+    },
+    {
+      "fieldname": "target_environment",
+      "fieldtype": "Select",
+      "label": "Target Environment",
+      "options": "development\ntest\ndemo\nstaging\nproduction"
+    },
+    {
+      "fieldname": "release_notes",
+      "fieldtype": "Long Text",
+      "label": "Release Notes"
+    },
+    {
+      "fieldname": "rollback_notes",
+      "fieldtype": "Long Text",
+      "label": "Rollback Notes"
+    }
+  ],
+  "istable": 0,
+  "links": [],
+  "module": "AI Engineering OS",
+  "name": "AI Release Channel",
+  "naming_rule": "Expression",
+  "permissions": [
+    {
+      "amend": 0,
+      "cancel": 0,
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "System Manager",
+      "submit": 0,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}

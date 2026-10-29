@@ -1,0 +1,16 @@
+[project]
+name = "ai_engineering_os"
+version = "0.0.0"
+description = "Repo-local Frappe wrapper layout for AI Engineering OS."
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ai_engineering_os*"]
+
+[tool.setuptools.package-data]
+ai_engineering_os = ["*.txt", "**/*.json", "**/*.js"]

@@ -1,0 +1,81 @@
+{
+  "actions": [],
+  "creation": "",
+  "custom": 0,
+  "description": "Repo-local template generated from YAML spec. Stores project metadata and environment classification.",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "fields": [
+    {
+      "fieldname": "project_id",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Project Id",
+      "reqd": 1
+    },
+    {
+      "fieldname": "project_name",
+      "fieldtype": "Data",
+      "label": "Project Name",
+      "reqd": 1
+    },
+    {
+      "fieldname": "project_type",
+      "fieldtype": "Data",
+      "in_standard_filter": 1,
+      "label": "Project Type"
+    },
+    {
+      "fieldname": "repo_path",
+      "fieldtype": "Data",
+      "label": "Repo Path"
+    },
+    {
+      "fieldname": "environment",
+      "fieldtype": "Select",
+      "label": "Environment",
+      "options": "development\ntest\ndemo\nstaging\nproduction\nunknown"
+    },
+    {
+      "fieldname": "frappe_version",
+      "fieldtype": "Data",
+      "label": "Frappe Version"
+    },
+    {
+      "fieldname": "erpnext_version",
+      "fieldtype": "Data",
+      "label": "Erpnext Version"
+    },
+    {
+      "fieldname": "risk_policy",
+      "fieldtype": "Small Text",
+      "label": "Risk Policy"
+    },
+    {
+      "fieldname": "notes",
+      "fieldtype": "Small Text",
+      "label": "Notes"
+    }
+  ],
+  "istable": 0,
+  "links": [],
+  "module": "AI Engineering OS",
+  "name": "AI Project Profile",
+  "naming_rule": "Expression",
+  "permissions": [
+    {
+      "amend": 0,
+      "cancel": 0,
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "System Manager",
+      "submit": 0,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}
